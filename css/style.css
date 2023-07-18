@@ -13,12 +13,12 @@
 /* qui iniziano gli elementi di testa */
 
 header{
-  background-color: rgb(17, 37, 218);
+  background-color: rgb(40, 61, 250);
 }
 
 #testa{
   display: flex;
-  background-color: rgb(119, 0, 255);
+  background-color: rgb(40, 61, 250);
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
@@ -31,7 +31,7 @@ header{
 
 #sottotesta{
   background-color: aquamarine;
-  
+  background-image:url(../img/jumbo.png);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,15 +39,18 @@ header{
   height: 500px;
 }
 
-.menu ul{
+.menu{
   list-style: none;
   color: white;
   display: flex;
+  justify-content: space-between;
+  
+
 
 }
 
 #sotto{
-  background-color: rgb(5, 69, 48);
+  
   width: 60%;
   max-width: 1200px;
   height: 400px;
@@ -57,13 +60,14 @@ header{
 .log{
   width: 25%;
   border: solid 1px black;
-  background-color: bisque;
+  background-color: rgb(40, 61, 250);
 }
 .login{
   width: 25%;
   border: solid 1px black;
-  background-color: bisque;
+  background-color: rgb(40, 61, 250);
   text-align: right;
+  color: white;
 }
 
 
