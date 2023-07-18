@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: brown;
+  border: solid 1px black;
+}
+
+
+/* qui iniziano gli elementi di testa */
+
+header{
+  background-color: rgb(17, 37, 218);
+}
+
+#testa{
+  display: flex;
+  background-color: rgb(119, 0, 255);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+  /* altezza che sarà da togliere */
+  height: 50px;
+}
+
+#sottotesta{
+  background-color: aquamarine;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/* altezza che sarà da togliere */
+  height: 500px;
+}
+
+.menu ul{
+  list-style: none;
+  color: white;
+  display: flex;
+
+}
+
+#sotto{
+  background-color: rgb(5, 69, 48);
+  width: 60%;
+  max-width: 1200px;
+  height: 400px;
+
+}
+
+.log{
+  width: 25%;
+  border: solid 1px black;
+  background-color: bisque;
+}
+.login{
+  width: 25%;
+  border: solid 1px black;
+  background-color: bisque;
+  text-align: right;
+}
+
+
+#links{
+  width: 50%;
+  text-align: center;
+  }
+
+.container{
+  width: 100%;
+  height: 540px;
+  background-color: rgb(156, 247, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-grey{
+  background-color:lightgrey ;
+}
+.back-white{
+  background-color: white;
+}
+
+.back-black{
+  background-color: rgb(30, 30, 30);
+}
+
+
+/* qui iniziano gli elementi del main */
+
+.box{
+   display: flex;
+  background-color:rgb(10, 59, 18);
+  width: 80%;
+  
+ 
+  
+  /* altezza che sarà da togliere */
+  height: 500px;
+}
+
+.box-img{
+  background-color: red;
+  width: 60%;
+   border: solid 1px black;
+   justify-self: flex-start;
+
+}
+
+.box-txt{
+  background-color: yellow;
+  width: 40%;
+  border: solid 1px black;
+  }
+
+.box-b{
+ display: flex;
+  background-color:white;
+  width: 80%;
+ /* altezza che sarà da togliere */
+  height: 500px;
+}
+
+/* qui vado a modificare il box con più colonne */
+
+.colonna-grande{
+  background-color: salmon;
+  width: 33%;
+  border: solid 1px rgb(43, 43, 43);
+}
+
+.colonnina{
+  background-color: aqua;
+  border: solid 1px white;
+  width: 258px;
+}
+
+
+/* qui inizia lo stile del footer */
+.container-foot{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(30, 30, 30);
+  border-top: solid 1px rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+}
+#piede{ display: flex;
+  background-color: rgb(122, 236, 198);
+  width: 80%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo{
+  background-color: lightpink;
+width: 80px;
+border: solid 1px black;
+height: 30px;
+text-align: center;
+}
+
+.registrati{
+  background-color: lightpink;
+  width: 80px;
+  border: solid 1px black;
+  height: 30px;
+  text-align: center;
+}
+
+
+
