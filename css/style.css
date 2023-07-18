@@ -164,9 +164,37 @@ header{
   display: flex;
 
  width: 80%;
- justify-content: center;
+ 
  flex-direction: column;
 }
+
+.pregi-big{
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* qui definisco lo stile dei diversi bottoni */
+
+.bottone-blu{
+  color: white;
+  
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.bottone-bianco
+
+.bottone-nero
+
+
+
+
+
+
+
+
 
 
 /* qui vado a modificare il box con più colonne */
