@@ -35,8 +35,9 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-/* altezza che sarà da togliere */
-  height: 500px;
+  padding-bottom: 800px;
+/* altezza che sarà da togliere 
+  height: 500px;*/
 }
 
 .menu{
