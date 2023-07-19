@@ -207,7 +207,9 @@ padding: 20px;
 .v{
   max-width: 10px;
 }
-
+.icone{
+  color: white;
+}
 
 .info{
   width: 75%;
@@ -229,9 +231,13 @@ text-align: center;
   color: blue;
 }
 
-li{
+.list-ele{
   color: white;
+  padding-top: 10px;
+
 }
+
+
 /* qui inizia lo stile del footer */
 .container-foot{
   width: 100%;
